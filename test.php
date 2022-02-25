@@ -2,13 +2,7 @@
 $out = exec('pwd');
 echo "<pre>$out</pre>";
 
-$outo = exec('ls -l');
-echo "<pre>$outo</pre>";
-
-$outo = exec('ls /home');
-echo "<pre>$outo</pre>";
-
-$outo = exec('ls /tmp');
+$outo = exec('ls /eos/cms/store/group/tracker-cctrack/www/CondDBMonitoringWebInterface/CondDBMonitoring/');
 echo "<pre>$outo</pre>";
 
 ?>
