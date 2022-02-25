@@ -2,6 +2,8 @@
 
 which python
 
+sh cmssw-setup.sh
+
 #curl https://ecsft.cern.ch/dist/cvmfs/cvmfs-2.9.0/cvmfs-service-2.9.0-1.x86_64.docker.tar.gz | docker load
 #docker run -d --rm \
 #  -e CVMFS_CLIENT_PROFILE=single \
