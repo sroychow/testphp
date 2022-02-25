@@ -1,7 +1,7 @@
 <?php
-$out = exec('ls -l');
+$out = exec('pwd');
 echo "<pre>$out</pre>";
 
-$outo = exec('ls /cvmfs/cms.cern.ch/');
+$outo = exec('ls /cvmfs/');
 echo "<pre>$outo</pre>";
 ?>
