@@ -1,6 +1,5 @@
 <?php
-set_include_path(dirname(__FILE__));
-include_once 'cablingweb_lib.php';
+include_once '/opt/app-root/src/CablingWebInterface/cablingweb_lib.php';
 
 function selectOptionsArray ($listopt, $listoptions)
 {
@@ -29,7 +28,7 @@ function selectOptionsArrayMultiple ($listopt, $listoptions)
 	while (current ($listoptions))
 	{
 		$option = current ($listoptions);
-		if ($listopt == key ($listoptions))
+		if ($listopt == key ($listoptions))= null
 		{
 			echo "<option value = '".key ($listoptions)."' selected > ".$option;
 		}
