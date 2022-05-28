@@ -1,10 +1,11 @@
 <H1>GET Cabling, PowerGroupName, PSUname info and a TrackerMap</H1>
 
 
-<?php
-	include 'cablingweb_lib_post.php';
-	include 'cablingweb_lib_select.php';
-	include 'cablingweb_utils.php';
+<?php   
+        set_include_path(dirname(__FILE__));
+	include_once 'cablingweb_lib_post.php';
+	include_once 'cablingweb_lib_select.php';
+	include_once 'cablingweb_utils.php';
 	
 	$inpfile = "";
 	$plotwidth = "1200";

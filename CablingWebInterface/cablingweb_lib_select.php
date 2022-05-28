@@ -1,6 +1,6 @@
 <?php
-
-include 'cablingweb_lib.php';
+set_include_path(dirname(__FILE__));
+include_once 'cablingweb_lib.php';
 
 function selectOptionsArray ($listopt, $listoptions)
 {
