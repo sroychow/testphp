@@ -1,6 +1,6 @@
 <?php
-
-include 'cablingweb-lib.php';
+set_include_path(dirname(__FILE__));
+include_once 'cablingweb-lib.php';
 
 function vectorAddDel (&$feature, &$fedid, &$module, &$pairnum, &$fechan, &$alias, &$subde, &$hv)
 {
