@@ -2,11 +2,11 @@
 
 
 <?php   
-        set_include_path(dirname(__FILE__));
-	include_once 'cablingweb_lib_post.php';
-	include_once 'cablingweb_lib_select.php';
-	include_once 'cablingweb_utils.php';
-	
+        set_include_path('/opt/app-root/src/CablingWebInterface/');
+	#include_once 'cablingweb_lib_post.php';
+	#include_once 'cablingweb_lib_select.php';
+	include_once '/opt/app-root/src/CablingWebInterface/cablingweb_utils.php';
+	include_once '/opt/app-root/src/CablingWebInterface/cablingweb_lib.php';	
 	$inpfile = "";
 	$plotwidth = "1200";
 	
